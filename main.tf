@@ -19,7 +19,7 @@ variable "ikswsname" {
 resource helm_release otelcollector {
   name       = "otelcollector"
   namespace = "default"
-  chart = "https://prathjan.github.io/helm-chart/opentelemetry-collector-0.12.2.tgz"
+  chart = "https://prathjan.github.io/helm-chart/opentelemetry-collector-0.12.3.tgz"
 }
 
 provider "helm" {
